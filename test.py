@@ -35,6 +35,9 @@ for i in range(len(iters)):
 
 print(max, max_j)
 
-print("!")
 
 
+iters = list(all_perms((0,1,2)))
+# print(iters)
+max = 0
+max_j = -1  
